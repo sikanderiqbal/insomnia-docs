@@ -8,3 +8,6 @@ _If you are a MacOS user, pretend `ctrl` is actually `cmd`_
 - `ctrl+D` Duplicate Request
 - `ctrl+L` Focus URL Bar
 - `ctrl+,` Show Settings
+- `ctrl++` Zoom In
+- `ctrl+-` Zoom Out
+- `ctrl+0` Reset Zoom

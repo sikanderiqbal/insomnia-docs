@@ -33,6 +33,3 @@ I forget how, but I stumbled upon the world of _REST Clients_. These were (usual
 web apps that allowed you to create and save HTTP requests. So, I tried them. All of them. And,
 after a few days, realized that I didn't like any of them. So I started writing my own.
 
-This is what the first (usable) version of Insomnia looked like.
-
-![First version of Insomnia Chrome](/images/first-version.png)

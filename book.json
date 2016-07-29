@@ -1,7 +1,7 @@
 {
   "gitbook": "3.x.x",
   "title": "Insomnia HTTP Client",
-  "root": ".",
+  "root": "docs",
   "structure": {
     "summary": "SUMMARY.md",
     "readme": "README.md"
