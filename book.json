@@ -3,7 +3,8 @@
   "title": "Insomnia HTTP Client",
   "root": ".",
   "structure": {
-    "summary": "SUMMARY.md"
+    "summary": "SUMMARY.md",
+    "readme": "README.md"
   },
   "plugins": [
     "prism",
@@ -18,7 +19,7 @@
       "label": "Edit This Page"
     },
     "github": {
-      "url": "https://github.com/gschier/insomnia/"
+      "url": "https://github.com/gschier/insomnia-docs"
     }
   }
 }

@@ -1,10 +1,8 @@
 # Summary
 
-* [Introduction](README.md)
-* [Basics](basics/README.md)
-    * [Writing is nice](part1/writing.md)
-    * [GitBook is nice](part1/gitbook.md)
-* [Part II](part2/README.md)
-    * [We love feedback](part2/feedback_please.md)
-    * [Better tools for authors](part2/better_tools.md)
+- [Introduction](README.md)
+    - [Installation](introduction/installation.md)
+    - [Something Else](introduction/installation.md)
+- [Basics](basics/README.md)
+- [Advanced](advanced/README.md)
 
