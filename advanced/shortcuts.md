@@ -1,7 +1,7 @@
 # Keyboard Shortcuts
 
 _Note: If you are on Windows or Linux, `meta` represents `Control` and, if you are on Mac, `meta`
-represents `Command`.
+represents `Command`._
 
 - `meta+Enter` Send Request
 - `meta+P` Switch Requests
