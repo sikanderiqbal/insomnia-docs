@@ -1,0 +1,26 @@
+{
+  "name": "insomnia-docs",
+  "version": "0.0.1",
+  "description": "Documentation for the Insomnia HTTP Client",
+  "main": "index.js",
+  "scripts": {
+    "start": "gitbook serve",
+    "deploy": "git subtree push --prefix _book origin gh-pages"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gschier/insomnia-docs.git"
+  },
+  "keywords": [
+    "Insomnia",
+    "Documentation",
+    "HTTP",
+    "API"
+  ],
+  "author": "Gregory Schier <support@insomnia.rest>",
+  "license": "GPLv3",
+  "bugs": {
+    "url": "https://github.com/gschier/insomnia-docs/issues"
+  },
+  "homepage": "https://github.com/gschier/insomnia-docs#readme"
+}

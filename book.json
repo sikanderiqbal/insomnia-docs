@@ -1,0 +1,19 @@
+{
+  "gitbook": "3.x.x",
+  "title": "Insomnia HTTP Client",
+  "root": ".",
+  "structure": {
+    "summary": "SUMMARY.md"
+  },
+  "plugins": [
+    "prism",
+    "-highlight",
+    "github",
+    "anker-enable"
+  ],
+  "pluginsConfig": {
+    "github": {
+      "url": "https://github.com/gschier/insomnia/"
+    }
+  }
+}
