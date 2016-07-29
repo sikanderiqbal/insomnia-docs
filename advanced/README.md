@@ -1,5 +1,3 @@
 # Advanced
 
-This section will take you through the basics of using Insomnia HTTP Client.
-
-![Screenshot of Insomnia HTTP Client](/images/screenshots/promo.png)
+This section will take you through the advanced usages of using Insomnia HTTP Client.
