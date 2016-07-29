@@ -2,16 +2,15 @@
 
 - [Introduction](README.md)
     - [Installation](introduction/installation.md)
-    - [Migrating from Chrome App (TODO)]()
-    - [History (TODO)]()
-- Basics
-    - [Creating Request (TODO)]()
-    - [Organization (TODO)]()
-    - [Basic Authentication (TODO)]()
-    - [Request Body Types (TODO)]()
-- Advanced
-    - [Environment Variables (TODO)]()
-    - [Keyboard Shortcuts (TODO)]()
-    - [Advanced Settings (TODO)]()
+    - [Migrating from Chrome App](/introduction/migrate-from-chrome.md)
+- [Basics]()
+    - [Creating Request]()
+    - [Organization]()
+    - [Basic Authentication]()
+    - [Request Body Types]()
+- [Advanced]()
+    - [Keyboard Shortcuts](/advanced/shortcuts.md)
+    - [Environment Variables]()
+    - [Advanced Settings]()
 - [Support and Feedback](feedback.md)
 

@@ -1,6 +1,11 @@
 # Keyboard Shortcuts
 
-- `meta+Enter` Send Request
-- `meta+N` New Request
+_Note: If you are on Windows or Linux, `meta` represents `Control` and, if you are on Mac, `meta`
+represents `Command`.
 
-**Work in Progress**
+- `meta+Enter` Send Request
+- `meta+P` Switch Requests
+- `meta+N` New Request
+- `meta+D` Duplicate Request
+- `meta+L` Focus URL Bar
+- `meta+,` Show Settings

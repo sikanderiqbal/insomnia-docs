@@ -11,7 +11,8 @@
     "-highlight",
     "github",
     "anker-enable",
-    "edit-link"
+    "edit-link",
+    "ga"
   ],
   "pluginsConfig": {
     "edit-link": {
@@ -20,6 +21,9 @@
     },
     "github": {
       "url": "https://github.com/gschier/insomnia-docs"
+    },
+    "ga": {
+      "token": "UA-9837747-12"
     }
   }
 }
