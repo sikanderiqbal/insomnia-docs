@@ -7,8 +7,9 @@
     "readme": "README.md"
   },
   "plugins": [
-    "prism",
     "-highlight",
+    "-fontsettings",
+    "prism",
     "github",
     "anker-enable",
     "edit-link",
