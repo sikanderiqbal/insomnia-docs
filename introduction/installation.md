@@ -7,12 +7,13 @@ You can install Insomnia on a wide variety of platforms.
 
 - Download the `dmg` file
 - Double click the `dmg` to run it
-- Drag the application to the `Applications` folder
+- Drag Insomnia into the `Applications` folder
 
 
 ## Windows
 
 - Double click the `exe` file 
+- Install will happen automatically
 - Wait for the app to launch
 
 
