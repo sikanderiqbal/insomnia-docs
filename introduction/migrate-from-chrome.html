@@ -2,7 +2,7 @@
 <!DOCTYPE HTML>
 <html lang="" >
     <head>
-        <title>Installation · Insomnia HTTP Client</title>
+        <title>Migrating from Chrome App · Insomnia HTTP Client</title>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
@@ -57,10 +57,8 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="migrate-from-chrome.html" />
     
-    
-    <link rel="prev" href="../" />
+    <link rel="prev" href="installation.html" />
     
 
     </head>
@@ -103,7 +101,7 @@
             <ul class="articles">
                 
     
-        <li class="chapter active" data-level="1.1.1" data-path="installation.html">
+        <li class="chapter " data-level="1.1.1" data-path="installation.html">
             
                 <a href="installation.html">
             
@@ -116,7 +114,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.1.2" data-path="migrate-from-chrome.html">
+        <li class="chapter active" data-level="1.1.2" data-path="migrate-from-chrome.html">
             
                 <a href="migrate-from-chrome.html">
             
@@ -306,7 +304,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >Installation</a>
+        <a href=".." >Migrating from Chrome App</a>
     </h1>
 </div>
 
@@ -321,20 +319,26 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="installation">Installation</h1><p>You can install Insomnia on a wide variety of platforms.</p><h2 id="mac-os">Mac OS</h2><ul><li>Download the <code>dmg</code> file
+                                <h1 id="migrate-from-chrome-app-v20">Migrate from Chrome App (v2.0)</h1><p>The <a href="https://chrome.google.com/webstore/detail/insomnia-rest-client/gmodihnfibbjdecbanmpmbmeffnmloel" target="_blank">previous version of Insomnia</a> 
+was a Chrome application, installed via the <a href="https://chrome.google.com/webstore" target="_blank">Chrome Web Store</a>.
+Due to certain limitations of Chrome Apps, I rewrote Insomnia using the 
+<a href="http://electron.atom.io/" target="_blank">Electron</a> framework to be a native desktop app.</p><p>Luckily for you, <strong>Upgrading from the Chrome app is easy</strong>. Just follow these simple steps.</p><h2 id="1-export-data-from-insomnia-20">1. Export Data from Insomnia 2.0</h2><ol><li>Open Insomnia 2.0 (Chrome App)
 </li>
-<li>Double click the <code>dmg</code> to run it
+<li>Open to Settings by clicking the dropdown menu in the top left
 </li>
-<li>Drag Insomnia into the <code>Applications</code> folder
-</li></ul>
-<h2 id="windows">Windows</h2><ul><li>Double click the <code>exe</code> file 
+<li>Click the <em>Export</em> button
 </li>
-<li>Install will happen automatically
+<li>Save the file to your computer
+</li></ol>
+<h2 id="2-import-data-into-insomnia-30">2. Import Data into Insomnia 3.0</h2><ol><li>Open Insomnia 3.0 
 </li>
-<li>Wait for the app to launch
-</li></ul>
-<h2 id="linux">Linux</h2><p>There is currently no Linux build, but they are coming soon. If you are a Linux users, please
-let me know at <a href="support@insomnia.rest">mailto:support@insomnia.rest</a></p>
+<li>Open to Settings by clicking the dropdown menu in the top left
+</li>
+<li>Click the <em>Import</em> button
+</li>
+<li>Select the file that you saved in the previous step
+</li></ol>
+
                                 
                                 </section>
                             
@@ -361,14 +365,10 @@ let me know at <a href="support@insomnia.rest">mailto:support@insomnia.rest</a><
 
             
                 
-                <a href="../" class="navigation navigation-prev " aria-label="Previous page: Introduction">
+                <a href="installation.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: Installation">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
-                
-                <a href="migrate-from-chrome.html" class="navigation navigation-next " aria-label="Next page: Migrating from Chrome App">
-                    <i class="fa fa-angle-right"></i>
-                </a>
                 
             
         
@@ -377,7 +377,7 @@ let me know at <a href="support@insomnia.rest">mailto:support@insomnia.rest</a><
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Installation","level":"1.1.1","depth":2,"next":{"title":"Migrating from Chrome App","level":"1.1.2","depth":2,"path":"introduction/migrate-from-chrome.md","ref":"introduction/migrate-from-chrome.md","articles":[]},"previous":{"title":"Introduction","level":"1.1","depth":1,"path":"README.md","ref":"README.md","articles":[{"title":"Installation","level":"1.1.1","depth":2,"path":"introduction/installation.md","ref":"introduction/installation.md","articles":[]},{"title":"Migrating from Chrome App","level":"1.1.2","depth":2,"path":"introduction/migrate-from-chrome.md","ref":"introduction/migrate-from-chrome.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["prism","-highlight","github","anker-enable","edit-link","livereload"],"root":".","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"prism":{},"github":{"url":"https://github.com/gschier/insomnia-docs"},"livereload":{},"anker-enable":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"edit-link":{"label":"Edit This Page","base":"https://github.com/gschier/insomnia-docs/tree/master"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Insomnia HTTP Client","gitbook":"3.x.x"},"file":{"path":"introduction/installation.md","mtime":"2016-07-29T02:22:22.000Z","type":"markdown"},"gitbook":{"version":"3.2.0","time":"2016-07-29T03:02:52.116Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Migrating from Chrome App","level":"1.1.2","depth":2,"next":{"title":"Basics","level":"1.2","depth":1,"ref":"","articles":[{"title":"Creating Request","level":"1.2.1","depth":2,"ref":"","articles":[]},{"title":"Organization","level":"1.2.2","depth":2,"ref":"","articles":[]},{"title":"Basic Authentication","level":"1.2.3","depth":2,"ref":"","articles":[]},{"title":"Request Body Types","level":"1.2.4","depth":2,"ref":"","articles":[]}]},"previous":{"title":"Installation","level":"1.1.1","depth":2,"path":"introduction/installation.md","ref":"introduction/installation.md","articles":[]},"dir":"ltr"},"config":{"plugins":["prism","-highlight","github","anker-enable","edit-link","livereload"],"root":".","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"prism":{},"github":{"url":"https://github.com/gschier/insomnia-docs"},"livereload":{},"anker-enable":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"edit-link":{"label":"Edit This Page","base":"https://github.com/gschier/insomnia-docs/tree/master"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Insomnia HTTP Client","gitbook":"3.x.x"},"file":{"path":"introduction/migrate-from-chrome.md","mtime":"2016-07-29T03:34:38.000Z","type":"markdown"},"gitbook":{"version":"3.2.0","time":"2016-07-29T03:02:52.116Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
