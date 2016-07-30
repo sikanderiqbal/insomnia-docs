@@ -24,7 +24,10 @@
       "url": "https://github.com/gschier/insomnia-docs"
     },
     "ga": {
-      "token": "UA-9837747-12"
+      "token": "UA-9837747-12",
+      "configuration": {
+        "allowLinker": true
+      }
     }
   }
 }
