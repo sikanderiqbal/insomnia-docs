@@ -3,9 +3,9 @@
 
 ## Getting Started 
 
-- [Joining the 3.0 Beta](/beta.md)
-- [Installing the App](/installation.md)
-- [Migrating from Chrome App](/migrate-from-chrome.md)
+- [Join the 3.0 Beta](/beta.md)
+- [Install the App](/installation.md)
+- [Migrate from Chrome App](/migrate-from-chrome.md)
 
 
 ## Help Topics
