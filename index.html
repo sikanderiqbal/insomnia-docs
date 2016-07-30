@@ -108,7 +108,7 @@
                 <a href="beta.html">
             
                     
-                    Joining the 3.0 Beta
+                    Join the 3.0 Beta
             
                 </a>
             
@@ -121,7 +121,7 @@
                 <a href="installation.html">
             
                     
-                    Installing the App
+                    Install the App
             
                 </a>
             
@@ -134,7 +134,7 @@
                 <a href="migrate-from-chrome.html">
             
                     
-                    Migrating from Chrome App
+                    Migrate from Chrome App
             
                 </a>
             
@@ -242,22 +242,25 @@
                                 
                                 <h1 id="insomnia-http-client">Insomnia HTTP Client</h1><p>Welcome to the documentation site for <a href="http://insomnia.rest" target="_blank">Insomnia</a>. 
 Insomnia is a beautiful cross-platform application for organizing, running, and 
-debugging HTTP requests.</p><p><img alt="Screenshot of Insomnia HTTP Client" src="images/promo.png"></p><h2 id="backstory-and-history">Backstory and History</h2><p>I first started on Insomnia in January of 2015. I was working at the SaaS startup 
-<a href="https://www.sendwithus.com" target="_blank">Sendwithus</a> which provides an API to send transactional emails. Before
-I made Insomnia, I used <a href="https://curl.haxx.se/" target="_blank"><code>curl</code></a> to test the API features I was working on.
-It was too painful to type in new commands for every endpoint I wanted to test, so I eventually
-ended up with a folder full of scripts that I would call to do various things. Here is what my
-folder might have looked like.</p><pre><code>curl-commands/
+debugging HTTP requests.</p><p><img alt="Screenshot of Insomnia HTTP Client" src="images/promo.png"></p><h2 id="backstory-and-history">Backstory and History</h2><p>I started Insomnia in January of 2015. I was helping build the API platform for
+(<a href="https://www.sendwithus.com" target="_blank">Sendwithus</a>) at the time, so a large part of my day-to-day was 
+interacting with HTTP APIs.</p><p>Before Insomnia, I used <a href="https://curl.haxx.se/" target="_blank"><code>curl</code></a> to test the API features being worked on.
+However, it was painful to build a new command for every test case, so I eventually ended up with 
+a messy folder of scripts that looked something like this.</p><pre><code>curl-commands/
  &#x251C;&#x2500;&#x2500; send-email.sh
  &#x251C;&#x2500;&#x2500; send-email-bad-data.sh
  &#x251C;&#x2500;&#x2500; update-customer.sh
  &#x251C;&#x2500;&#x2500; ...
  &#x2514;&#x2500;&#x2500; create-email-template.sh</code></pre>
-<p>It was messy. If I wanted to change the API key I was using I would have to either update it in
-every script, or factor it out into an environment variable and soft-reference it. I knew there had
-to be a better way.</p><p>I forget how, but I stumbled upon the world of <em>REST Clients</em>. These were (usually) poorly written
-web apps that allowed you to create and save HTTP requests. So, I tried them. All of them. And,
-after a few days, realized that I didn&apos;t like any of them. So I started writing my own.</p>
+<p>It started off manageable, but slowly turned into a nightmare. Doing something trivial like changing 
+the API key that was being sent sometimes meant modifying every file. Sure, I could have used an
+environment variable for that, but what if I wanted to change something else? Finally, after a lot
+of pain, I realized there was probably a better way.</p><p>I eventually stumbled upon the world of <em>REST Clients</em>. These were usually poorly designed 
+(my opinion) web apps built to solve this exact problem. So, I tried them. All of them. And, 
+after a few days, still didn&apos;t find one that I liked. So I wrote my own.</p><p>The first version was built from a $15 <a href="https://themeforest.net/" target="_blank">ThemeForest</a> theme, a couple 
+hundred likes of JQuery, and was distributed via the 
+<a href="https://chrome.google.com/webstore" target="_blank">Chrome Web Store</a>. It was horrible but it worked, and slowly
+evolved to where it is today.</p><p>You can download Insomnia today by visiting <a href="">http://insomnia.rest</a>.</p><p>Thanks for reading, and I hope you enjoy the app!</p><p><br></p><p>~ <a href="http://schier.co" target="_blank">Gregory</a></p>
                                 
                                 </section>
                             
@@ -285,7 +288,7 @@ after a few days, realized that I didn&apos;t like any of them. So I started wri
             
                 
                 
-                <a href="beta.html" class="navigation navigation-next navigation-unique" aria-label="Next page: Joining the 3.0 Beta">
+                <a href="beta.html" class="navigation navigation-next navigation-unique" aria-label="Next page: Join the 3.0 Beta">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -296,7 +299,7 @@ after a few days, realized that I didn&apos;t like any of them. So I started wri
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Introduction","level":"1.1","depth":1,"next":{"title":"Joining the 3.0 Beta","level":"2.1","depth":1,"path":"beta.md","ref":"beta.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-highlight","-fontsettings","prism","github","anker-enable","edit-link","ga"],"root":"docs","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"prism":{},"github":{"url":"https://github.com/gschier/insomnia-docs"},"anker-enable":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"ga":{"configuration":"auto","token":"UA-9837747-12"},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"edit-link":{"label":"Edit This Page","base":"https://github.com/gschier/insomnia-docs/tree/master"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Insomnia HTTP Client","gitbook":"3.x.x"},"file":{"path":"README.md","mtime":"2016-07-29T23:27:38.000Z","type":"markdown"},"gitbook":{"version":"3.2.0","time":"2016-07-29T23:49:40.845Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Introduction","level":"1.1","depth":1,"next":{"title":"Join the 3.0 Beta","level":"2.1","depth":1,"path":"beta.md","ref":"beta.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-highlight","-fontsettings","prism","github","anker-enable","edit-link","ga"],"root":"docs","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"prism":{},"github":{"url":"https://github.com/gschier/insomnia-docs"},"anker-enable":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"ga":{"configuration":"auto","token":"UA-9837747-12"},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"edit-link":{"label":"Edit This Page","base":"https://github.com/gschier/insomnia-docs/tree/master"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Insomnia HTTP Client","gitbook":"3.x.x"},"file":{"path":"README.md","mtime":"2016-07-30T00:35:01.000Z","type":"markdown"},"gitbook":{"version":"3.2.0","time":"2016-07-30T00:35:09.575Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>
