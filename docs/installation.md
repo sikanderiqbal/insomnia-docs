@@ -20,4 +20,4 @@ You can install Insomnia on a wide variety of platforms.
 ## Linux
 
 There is currently no Linux build, but they are coming soon. If you are a Linux users, please
-let me know at [mailto:support@insomnia.rest](support@insomnia.rest)
+let me know at [support@insomnia.rest](mailto:support@insomnia.rest)
