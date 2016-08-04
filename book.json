@@ -17,7 +17,7 @@
   ],
   "pluginsConfig": {
     "edit-link": {
-      "base": "https://github.com/gschier/insomnia-docs/tree/master",
+      "base": "https://github.com/gschier/insomnia-docs/tree/master/docs",
       "label": "Edit This Page"
     },
     "github": {
