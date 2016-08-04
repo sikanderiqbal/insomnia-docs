@@ -25,4 +25,4 @@ You can install Insomnia on a wide variety of platforms.
 
 **Other**
 
-- Double click the `.AppImage` file to install
+- Double click the `.AppImage` file to launch the application
