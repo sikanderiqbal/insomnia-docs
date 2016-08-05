@@ -40,7 +40,7 @@ hundred likes of JQuery, and was distributed via the
 [Chrome Web Store](https://chrome.google.com/webstore). It was horrible but it worked, and slowly
 evolved to where it is today. 
 
-You can download Insomnia today by visiting [http://insomnia.rest]().
+You can download Insomnia today by visiting [http://insomnia.rest](http://insomnia.rest).
 
 Thanks for reading, and I hope you enjoy the app!
 
